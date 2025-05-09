@@ -1,11 +1,11 @@
 # Node.js
-# node_modules
+node_modules
 
 # Client specific node_modules
-# client/node_modules
+client/node_modules
 
 # Server specific node_modules
-# server/node_modules
+server/node_modules
 
 # Other common ignores (optional, but good practice)
 .DS_Store
