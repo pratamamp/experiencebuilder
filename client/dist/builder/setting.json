@@ -1,0 +1,17 @@
+{
+  "devEnv": {
+    "dev": {
+      "portalUrl": "https://devext.arcgis.com",
+      "clientId": "experienceBuilder"
+    },
+    "qa": {
+      "portalUrl": "https://qaext.arcgis.com",
+      "clientId": "experienceBuilder"
+    },
+    "prod": {
+      "portalUrl": "https://tiger.maps.arcgis.com",
+      "clientId": "3fAebweduPHM6e5a",
+      "isWebTier": false
+    }
+  }
+}

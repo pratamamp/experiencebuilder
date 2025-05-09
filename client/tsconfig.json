@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "skipLibCheck": true,
+    "lib": ["dom", "es6", "scripthost", "es2015", "es2020.Promise"],
+    "jsx": "react",
+    "noEmitHelpers": false,
+    "noUnusedLocals": false,
+    "allowUnreachableCode": true,
+    "allowJs": true,
+    "strictNullChecks": false,
+    "baseUrl": ".",
+    "paths": {
+      "calcite-components": ["jimu-ui/calcite-components"],
+      "esri/*": ["./node_modules/@arcgis/core/*"],
+      // "widgets/*": ["./your-extensions/widgets/*"],
+      "widgets/*": ["./exb-custom-widgets/*"]
+    }
+  },
+  "include": [
+    "dist/widgets",
+    "your-extensions",
+    "exb-custom-widgets",
+    "types",
+    "jimu-core/lib/types"
+  ],
+  "exclude": ["node_modules", "arcgis-js-api", "**/*.js"]
+}
